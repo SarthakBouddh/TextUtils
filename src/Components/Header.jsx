@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import darkImg from '../assets/Dark.png'; // Use actual filenames
-import lightImg from '../assets/light.png';
+import lightImg from '../assets/Light.png';
 
 const Header = ({ isDarkMode, toggleMode }) => {
   const [image, setImage] = useState(lightImg);
